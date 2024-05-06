@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-fmgk
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/push-pyxis-jehy-tenant/appstudio/devfile-sample-python-basic-fmgk@sha256:51581ad7bb923c5dadde4a22cc3419a4901e25b27e4a90dadbe4f37bbf9cce8e
+        name: my-python
+        resources: {}
+status: {}
