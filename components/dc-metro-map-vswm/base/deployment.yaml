@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-vswm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/push-pyxis-jehy-tenant/appstudio/dc-metro-map-vswm@sha256:24e69a07d01a577a2b851556a18e8575343513bad08f01d92a0a8b945bc6254d
         name: my-nodejs
         ports:
         - containerPort: 3001
